@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="" en>
+
+<head>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet"> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dwip Dutta Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo"><span>Dwip</span> Dutta</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home ">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello! I'm<span> </span>Dwip</h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>
+                I am currently pursuing my studies in Computer Science Engineering Specializing in Artificial
+                Intelligence and Machine Learning. I am passionate
+                about leveraging cutting-edge technology to solve real
+                world problems and am particularly interested in Web Development, Machine learning, natural language
+                processing, computer vision, data analysis & many more...
+            </p>
+
+            <div class="social-icons">
+                <a href="#" onclick="location.href='https://www.linkedin.com/in/dwip-dutta-30b88a255/'"><i
+                        class="bx bxl-linkedin-square bx-lg"></i></a>
+                <a href="#" onclick="location.href='https://github.com/dwipdutta23'"><i
+                        class="bx bxl-github bx-lg"></i></a>
+                <a href="#" onclick="location.href='https://www.instagram.com/dwipdutta12?igsh=MWxoeHR6c3NpZDMwdQ=='"><i
+                        class="bx bxl-instagram bx-lg"></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#projects" class="btn">Projects</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="Img/image7.png" alt="" />
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <!-- <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="5%" stop-color="#15000f"></stop><stop offset="95%" stop-color="#2c0011"></stop></linearGradient></defs><path d="M 0,400 L 0,400 C 40.535548115172986,255.297346535069 81.07109623034597,110.594693070138 111,58 C 140.92890376965403,5.405306929861987 160.25116319378915,44.918574254516955 194,55 C 227.74883680621085,65.08142574548305 275.92425099449747,45.731009911794175 317,60 C 358.07574900550253,74.26899008820583 392.05183282822105,122.15738609830635 422,124 C 451.94816717177895,125.84261390169365 477.86841769261855,81.63944569498044 510,70 C 542.1315823073814,58.36055430501956 580.4744964013044,79.28483112177189 620,91 C 659.5255035986956,102.71516887822811 700.2335967021642,105.22122981793198 730,103 C 759.7664032978358,100.77877018206802 778.591116790039,93.83024960650017 815,84 C 851.408883209961,74.16975039349983 905.40193613768,61.45777175606732 943,69 C 980.59806386232,76.54222824393268 1001.8011386592405,104.33866336923059 1030,106 C 1058.1988613407595,107.66133663076941 1093.3935092253585,83.18757476701037 1127,73 C 1160.6064907746415,62.81242523298963 1192.6248244393264,66.91103756272798 1228,58 C 1263.3751755606736,49.088962437272016 1302.1071930173352,27.16827498207772 1338,82 C 1373.8928069826648,136.83172501792228 1406.9464034913324,268.41586250896114 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path><defs><linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="5%" stop-color="#15000f"></stop><stop offset="95%" stop-color="#2c0011"></stop></linearGradient></defs><path d="M 0,400 L 0,400 C 31.42667726446527,326.60881859300457 62.85335452893054,253.2176371860092 98,222 C 133.14664547106946,190.7823628139908 172.01325914874315,201.73826984896772 205,210 C 237.98674085125685,218.26173015103228 265.09360887609694,223.82928341811984 303,233 C 340.90639112390306,242.17071658188016 389.61230534686916,254.944596478553 420,237 C 450.38769465313084,219.055403521447 462.4571697364263,170.39233066766812 496,183 C 529.5428302635737,195.60766933233188 584.5590157074255,269.4860808507745 629,275 C 673.4409842925745,280.5139191492255 707.3067674338715,217.66334592923394 738,201 C 768.6932325661285,184.33665407076606 796.2139145570884,213.86053543228977 821,224 C 845.7860854429116,234.13946456771023 867.837574337775,224.89451234160705 907,229 C 946.162425662225,233.10548765839295 1002.4357880918119,250.56141520128205 1040,241 C 1077.564211908188,231.43858479871795 1096.419273294978,194.8598268532646 1122,187 C 1147.580726705022,179.1401731467354 1179.8871187282753,199.99927738565955 1219,218 C 1258.1128812717247,236.00072261434045 1304.0322517919215,251.14306360409728 1342,281 C 1379.9677482080785,310.8569363959027 1409.9838741040394,355.42846819795136 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path></svg> -->
+        <div class="about-img">
+            <img src="Img/image7.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Overview</h2>
+            <h4><span>Artificial Intelligence & Machine Learning Engineer!</span></h4>
+            <p>I am a dedicated Computer Science Engineering student with a specialization in Artificial Intelligence
+                and Machine Learning. My academic journey has provided me with a strong foundation in programming,
+                algorithms, and data structures, alongside a deep understanding of AI and ML techniques. I am skilled in
+                developing and deploying models using tools like TensorFlow, PyTorch, and Scikit-learn. Passionate about
+                solving real-world problems, I am driven by a desire to apply innovative AI solutions in fields such as
+                natural language processing, computer vision, and predictive analytics. I am eager to contribute to
+                impactful projects in the tech industry.</p>
+
+            <a href="DWIP-DUTTA-Resume.pdf" class="btn-box">Resume</a>
+        </div>
+    </section>
+    <section class="education" id="education">
+
+        <!-- <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="5%" stop-color="#15000f"></stop><stop offset="95%" stop-color="#2c0011"></stop></linearGradient></defs><path d="M 0,400 L 0,400 C 40.535548115172986,255.297346535069 81.07109623034597,110.594693070138 111,58 C 140.92890376965403,5.405306929861987 160.25116319378915,44.918574254516955 194,55 C 227.74883680621085,65.08142574548305 275.92425099449747,45.731009911794175 317,60 C 358.07574900550253,74.26899008820583 392.05183282822105,122.15738609830635 422,124 C 451.94816717177895,125.84261390169365 477.86841769261855,81.63944569498044 510,70 C 542.1315823073814,58.36055430501956 580.4744964013044,79.28483112177189 620,91 C 659.5255035986956,102.71516887822811 700.2335967021642,105.22122981793198 730,103 C 759.7664032978358,100.77877018206802 778.591116790039,93.83024960650017 815,84 C 851.408883209961,74.16975039349983 905.40193613768,61.45777175606732 943,69 C 980.59806386232,76.54222824393268 1001.8011386592405,104.33866336923059 1030,106 C 1058.1988613407595,107.66133663076941 1093.3935092253585,83.18757476701037 1127,73 C 1160.6064907746415,62.81242523298963 1192.6248244393264,66.91103756272798 1228,58 C 1263.3751755606736,49.088962437272016 1302.1071930173352,27.16827498207772 1338,82 C 1373.8928069826648,136.83172501792228 1406.9464034913324,268.41586250896114 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path><defs><linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="5%" stop-color="#15000f"></stop><stop offset="95%" stop-color="#2c0011"></stop></linearGradient></defs><path d="M 0,400 L 0,400 C 31.42667726446527,326.60881859300457 62.85335452893054,253.2176371860092 98,222 C 133.14664547106946,190.7823628139908 172.01325914874315,201.73826984896772 205,210 C 237.98674085125685,218.26173015103228 265.09360887609694,223.82928341811984 303,233 C 340.90639112390306,242.17071658188016 389.61230534686916,254.944596478553 420,237 C 450.38769465313084,219.055403521447 462.4571697364263,170.39233066766812 496,183 C 529.5428302635737,195.60766933233188 584.5590157074255,269.4860808507745 629,275 C 673.4409842925745,280.5139191492255 707.3067674338715,217.66334592923394 738,201 C 768.6932325661285,184.33665407076606 796.2139145570884,213.86053543228977 821,224 C 845.7860854429116,234.13946456771023 867.837574337775,224.89451234160705 907,229 C 946.162425662225,233.10548765839295 1002.4357880918119,250.56141520128205 1040,241 C 1077.564211908188,231.43858479871795 1096.419273294978,194.8598268532646 1122,187 C 1147.580726705022,179.1401731467354 1179.8871187282753,199.99927738565955 1219,218 C 1258.1128812717247,236.00072261434045 1304.0322517919215,251.14306360409728 1342,281 C 1379.9677482080785,310.8569363959027 1409.9838741040394,355.42846819795136 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path></svg> -->
+
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022-2026</div>
+                <div class="timeline-content">
+                    <h3>College</h3>
+                    <h4>Pursuing B-Tech CSE(AIML),</h4>
+                    <h4>Meghnad Saha Institute Of Technology(MSIT), Kolkata.</h4>
+                    <p>
+
+                        I am currently a 3rd year student, focusing on core computer science concepts and
+                        advanced AI/ML topics. Building a strong foundation for a career in cutting-edge AI
+                        technologies.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020-2022</div>
+                <div class="timeline-content">
+                    <h3>12th (Higher Secondary)</h3>
+                    <h4>Burdwan Model School(BMS), Bardhaman.</h4>
+                    <p>
+
+
+                        Completed my 12th grade in 2022 with a strong foundation in science and mathematics, which laid
+                        the groundwork for my journey into computer science and AI.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2008-2020</div>
+                <div class="timeline-content">
+                    <h3>10th (Secondary)</h3>
+                    <h4>St Joseph's English Medium School, Katwa.</h4>
+                    <p>
+
+
+                        Completed my 10th grade in 2020, gaining a solid understanding of key subjects and developing
+                        the academic discipline that set the stage for my future studies in technology.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="main-text">
+            <!-- <span>TECHNICAL & PROFESSIONAL</span> -->
+            <h2 class="heading">My <span>Skills</span></h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar"><i style="color: #c95d2e;" class='bx bxl-html5'></i>
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar"><i style="color: #147bbc;" class='bx bxl-css3'></i>
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar"><i style="color: #b0bc1e;" class='bx bxl-javascript'></i>
+                    <div class="info">
+                        <p>JAVASCRIPT</p>
+                        <p>20%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar"><i style="color: #c32ec9;" class='bx bxl-python'></i>
+                    <div class="info">
+                        <p>PYTHON</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="python"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar"><i style="color: #ff0000;" class='bx bxl-java'></i>
+                    <div class="info">
+                        <p>JAVA</p>
+                        <p>50%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="java"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar"><i style="color: #03abf3;" class='bx bxl-c-plus-plus'></i>
+                    <div class="info">
+                        <p>C</p>
+                        <p>85%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="c"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-right">
+                <h3>Professional Skills</h3>
+                <div class="Professional">
+                    <div class="box">
+                        <div class="circle" data-dots="60" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="60" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="60" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="60" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <h3><Span>COMMING SOON</Span></h3>
+        <div class="projects-container">
+
+
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Experience</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Sep, 2024</div>
+                <div class="timeline-content">
+                    <h3>Artificial Intelligence & Machine Learning Internship</h3>
+                    <h4>Internpe, Remote,</h4>
+                    <h5>August - September, 2024.</h5>
+                    <p>
+                        Completed an internship in the AIML domain, working on four diverse projects. This experience
+                        deepened my expertise in AI and ML, enabling me to tackle complex challenges and develop
+                        innovative solutions. Enhanced both technical proficiency and practical knowledge in applying
+                        AIML techniques across various projects.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">April, 2024</div>
+                <div class="timeline-content">
+                    <h3>Machine Learning Internship</h3>
+                    <h4>Prodigy Infotech, Remote</h4>
+                    <h5>April - May, 2024.</h5>
+                    <p>
+                        Completed a one-month internship focused on developing various machine learning models. Gained
+                        practical experience in implementing, training, and evaluating different ML algorithms,
+                        enhancing both technical skills and understanding of real-world applications. Collaborated on
+                        projects that applied these models to solve complex problems.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Jan, 2024</div>
+                <div class="timeline-content">
+                    <h3>Data Analyst Apprenticeship</h3>
+                    <h4>Academy of Skill Development, Onsite,</h4>
+                    <h5>Jan - Feb, 2024, Kolkata, india.</h5>
+                    <p>
+                        Analyzed and visualized stock market trends using large datasets during my apprenticeship.
+                        Collaborated with a team to extract insights and create compelling visual representations,
+                        enhancing decision-making processes and gaining hands-on experience with data analysis tools.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <!-- <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="5%" stop-color="#15000f"></stop><stop offset="95%" stop-color="#2c0011"></stop></linearGradient></defs><path d="M 0,400 L 0,400 C 70.2838733431517,260.49392488954345 140.5677466863034,120.9878497790869 203,76 C 265.4322533136966,31.012150220913107 320.0128865979381,80.54252577319588 366,100 C 411.9871134020619,119.45747422680412 449.380706921944,108.84204712812961 517,92 C 584.619293078056,75.15795287187039 682.4642857142857,52.08928571428571 745,47 C 807.5357142857143,41.91071428571429 834.7621502209132,54.80081001472756 894,72 C 953.2378497790868,89.19918998527244 1044.4871134020618,110.70747422680412 1102,105 C 1159.5128865979382,99.29252577319588 1183.2893961708394,66.36929307805596 1234,111 C 1284.7106038291606,155.63070692194404 1362.3553019145802,277.815353460972 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.4" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path><defs><linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="5%" stop-color="#15000f"></stop><stop offset="95%" stop-color="#2c0011"></stop></linearGradient></defs><path d="M 0,400 L 0,400 C 58.63052282768777,301.2604933726068 117.26104565537554,202.52098674521355 178,172 C 238.73895434462446,141.47901325478645 301.5863402061856,179.17654639175257 359,194 C 416.4136597938144,208.82345360824743 468.3935935198822,200.77282768777613 529,201 C 589.6064064801178,201.22717231222387 658.8392857142858,209.73214285714283 716,195 C 773.1607142857142,180.26785714285717 818.2492636229749,142.29860088365245 873,145 C 927.7507363770251,147.70139911634755 992.1636597938143,191.0734536082474 1059,185 C 1125.8363402061857,178.9265463917526 1195.0960972017674,123.40758468335787 1259,151 C 1322.9039027982326,178.59241531664213 1381.4519513991163,289.29620765832107 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path><defs><linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="5%" stop-color="#15000f"></stop><stop offset="95%" stop-color="#2c0011"></stop></linearGradient></defs><path d="M 0,400 L 0,400 C 39.16200294550809,343.7039764359352 78.32400589101618,287.4079528718704 150,259 C 221.67599410898382,230.59204712812962 325.8659793814433,230.07216494845363 385,247 C 444.1340206185567,263.92783505154637 458.21207658321066,298.3033873343152 514,296 C 569.7879234167893,293.6966126656848 667.2857142857142,254.7142857142857 734,249 C 800.7142857142858,243.2857142857143 836.6450662739323,270.83946980854193 896,274 C 955.3549337260677,277.16053019145807 1038.1340206185566,255.9278350515464 1105,241 C 1171.8659793814434,226.0721649484536 1222.8188512518411,217.44918998527248 1276,245 C 1329.1811487481589,272.5508100147275 1384.5905743740796,336.27540500736376 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-2" transform="rotate(-180 720 200)"></path></svg> -->
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+
+
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="social">
+            <a onclick="location.href='https://www.linkedin.com/in/dwip-dutta-30b88a255/'"><i
+                    class="bx bxl-linkedin-square bx-lg"></i></a>
+            <a onclick="location.href='https://github.com/dwipdutta23'"><i class="bx bxl-github bx-lg"></i></a>
+            <a onclick="location.href='https://www.instagram.com/dwipdutta12?igsh=MWxoeHR6c3NpZDMwdQ=='"><i
+                    class="bx bxl-instagram bx-lg"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#home">About Me</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+
+        </ul>
+
+        <p class="copyright">
+            © Dwip Dutta | All Rights Reserved
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+<!-- <div class="slider" style="--quantity: 9">
+    <div class="item" style="--position: 1"><img src="images/photoshop.png" alt=""></div>
+    <div class="item" style="--position: 2"><img src="images/css.png" alt=""></div>
+    <div class="item" style="--position: 3"><img src="images/javascript.png" alt=""></div>
+    <div class="item" style="--position: 4"><img src="images/html.png" alt=""></div>
+    <div class="item" style="--position: 5"><img src="images/java.png" alt=""></div>
+    <div class="item" style="--position: 6"><img src="images/python.png" alt=""></div>
+    <div class="item" style="--position: 7"><img src="images/cpp.png" alt=""></div>
+    <div class="item" style="--position: 8"><img src="images/c.png" alt=""></div>
+    <div class="item" style="--position: 9"><img src="images/figma.png" alt=""></div>
+
+</div> -->
